@@ -10,10 +10,6 @@ from purdygoodengineering/docker-pge-base-centos6:latest
   # maintainer
   maintainer matthew purdy <matthew.purdy@purdygoodengineering.com>
   
-  # add custom bashrc
-  add pge_hadoop_bashrc /root/pge_hadoop_bashrc
-  run source /root/pge_hadoop_bashrc
-  
   env HADOOP_HOME /opt/hadoop
   env HADOOP_PREFIX /opt/hadoop 
   env HADOOP_COMMON_HOME /opt/hadoop 
